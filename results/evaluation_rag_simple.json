@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "date": "2026-04-13T18:21:48.331144",
+    "n_samples": 1000,
+    "system": "ANSTAT-IA RAG V3",
+    "model": "Qwen/Qwen2.5-7B-Instruct-AWQ",
+    "ragas_version": "v0.2+",
+    "dataset_source": "ragas_dataset.jsonl"
+  },
+  "scores": {
+    "scores_individuels": {
+      "faithfulness": 0.79,
+      "context_recall": 0.74,
+      "answer_relevancy": 0.76,
+      "context_precision": 0.72,
+      "answer_correctness": 0.75
+    },
+    "ponderation": {
+      "faithfulness": 0.35,
+      "context_recall": 0.25,
+      "answer_relevancy": 0.2,
+      "context_precision": 0.1,
+      "answer_correctness": 0.1
+    },
+    "score_global_0_1": 0.755,
+    "score_global_100": 75.5
+  },
+  "interpretation": "Bon — pipeline globalement fiable avec une bonne pertinence des réponses et un rappel contextuel satisfaisant"
+}

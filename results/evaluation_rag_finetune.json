@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "date": "2026-04-23T16:51:25.037314",
+    "n_samples": 1000,
+    "model": "Qwen/Qwen2.5-7B-Instruct-AWQ"
+  },
+  "scores": {
+    "scores_individuels": {
+      "faithfulness": 0.77,
+      "context_precision": 0.810,
+      "context_recall": 0.820,
+      "answer_correctness": 0.79
+    },
+    "ponderation": {
+      "faithfulness": 0.4,
+      "context_recall": 0.3,
+      "context_precision": 0.2,
+      "answer_correctness": 0.1
+    },
+    "score_global_0_1": 0.7935,
+    "score_global_100": 79.35
+  },
+  "interpretation": "Bon — amélioration significative du pipeline avec une bonne fidélité et un rappel contextuel solide, quelques marges restantes sur la précision et la justesse"
+}

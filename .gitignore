@@ -1,0 +1,23 @@
+# Données lourdes (voir docs/DONNEES.md)
+embeddings_v2/
+chunks_output_v2/
+documents/
+*.faiss
+*.bin
+*.npz
+*.pkl
+*.jsonl
+
+# Logs / checkpoints
+*.log
+ragas_checkpoint.json
+ragas_eval_checkpoint.json
+ragas_report_*.json
+
+# Secrets / environnement
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store

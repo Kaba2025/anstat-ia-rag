@@ -1,0 +1,22 @@
+# Extraction et chunking
+opendataloader-pdf
+pymupdf
+pdfplumber
+camelot-py[cv]
+pandas
+numpy
+
+# Indexation et recherche
+faiss-cpu
+rank-bm25
+FlagEmbedding
+sentence-transformers
+
+# Génération (appel du serveur vLLM)
+requests
+
+# Évaluation
+ragas
+datasets
+langchain-openai
+tqdm
